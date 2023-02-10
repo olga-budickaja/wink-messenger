@@ -82,7 +82,7 @@ const Navbar = () => {
                         <Box sx={{ display: { xs: 'none', lg: 'flex' } }}>
                             <ListItemButton
                                 component={RouterLink}
-                                to="settings"
+                                to="user/1"
                                 sx={{ color: 'white' }}
                             >
                                 {name}

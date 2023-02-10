@@ -23,7 +23,7 @@ const UserPostsPage = () => {
         }
         fetchUsers();
     }, [])
-    console.log(users)
+
     useEffect(() => {
         const fetchPosts = async () => {
             try {
